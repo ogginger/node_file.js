@@ -11,6 +11,6 @@
       "fs": "empty:"
     },
     exclude: [ "rsvp", "fs" ],
-    name: "file.js",
+    name: "file",
     out: "file.min.js"
 })
