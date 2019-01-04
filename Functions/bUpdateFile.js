@@ -4,7 +4,7 @@ define([
   "rsvp",
   "fs",
   "Functions/bCheckFile",
-  "Functions/log"
+  "log"
 ], function(
   rsvp,
   fs,
