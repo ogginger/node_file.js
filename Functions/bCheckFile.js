@@ -3,7 +3,7 @@
 define([
   "rsvp",
   "fs",
-  "Functions/log"
+  "log"
 ], function(
   rsvp,
   fs,
