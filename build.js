@@ -7,10 +7,11 @@
 ({
     baseUrl: ".",
     paths: {
-      "rsvp": "lib/rsvp.min",
-      "fs": "empty:"
+	"rsvp": "lib/rsvp.min",
+	"fs": "empty:",
+	"log": "lib/log.min"
     },
-    exclude: [ "rsvp", "fs" ],
+    exclude: [ "rsvp", "fs", "log" ],
     name: "file",
     out: "file.min.js"
 })
