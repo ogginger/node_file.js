@@ -8,7 +8,8 @@ define([
   "Functions/bCreateFile",
   "Functions/bDeleteFile",
   "Functions/sGetFile",
-  "Functions/bUpdateFile"
+  "Functions/bUpdateFile",
+  "Functions/bCheckFile"
 ], function(
   bCreateFile,
   bDeleteFile,
@@ -19,6 +20,7 @@ define([
     "create": bCreateFile,
     "delete": bDeleteFile,
     "get": sGetFile,
-    "update": bUpdateFile
+    "update": bUpdateFile,
+    "check": bCheckFile
   };
 });
