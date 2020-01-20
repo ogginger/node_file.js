@@ -14,7 +14,8 @@ define([
   bCreateFile,
   bDeleteFile,
   sGetFile,
-  bUpdateFile
+  bUpdateFile,
+  bCheckFile
 ) {
   return {
     "create": bCreateFile,
